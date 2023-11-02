@@ -1,0 +1,94 @@
+.early {
+  width: 100%;
+  background: url("https://www.blockchain.com/static/img/home/home-hero-gradient.svg")
+    no-repeat center bottom;
+  background-size: cover;
+  padding-top: 7.25rem;
+}
+.early > div {
+  max-width: 62.5rem;
+  margin: 0 auto;
+  padding: 10.625rem 0px;
+}
+
+.early .content {
+  max-width: 46.6875rem;
+}
+
+.early h1 {
+  font-size: 3rem;
+  line-height: 3.625rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.early h3 {
+  color: #fff;
+  margin-bottom: 2rem;
+
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.125rem;
+}
+
+.early form {
+  display: flex;
+  gap: 1rem;
+
+  min-height: 48px;
+}
+
+.early form input {
+  width: 100%;
+  max-width: 24.1875rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  padding: 0.75rem 1rem;
+  line-height: 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  border-radius: 0.5rem;
+}
+
+.early form input::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+.early form button.signup {
+  background: rgb(236, 245, 254);
+  color: rgb(12, 108, 242);
+  line-height: 1.25rem;
+  font-size: 0.875rem;
+  padding: 0.75rem 1.375rem;
+  margin: 0;
+}
+
+@media (max-width: 425px) {
+  .early .content {
+    padding: 0px 1rem;
+  }
+
+  .early > div {
+    padding: 7.5rem 0px 5rem;
+  }
+
+  .early h1 {
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+  }
+  .early h3 {
+    font-size: 1.0625rem;
+    line-height: 1.5rem;
+  }
+
+  .early form input {
+    max-height: 44px;
+  }
+
+  .early form button.signup {
+    padding: 0.625rem 0.875rem;
+    max-height: 44px;
+    white-space: nowrap;
+  }
+}
