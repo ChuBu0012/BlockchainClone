@@ -9,7 +9,7 @@
 }
 
 body {
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 a {
@@ -152,6 +152,35 @@ button.signup {
   font-size: 14px;
 }
 
+.buyCrypto {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 1.5rem;
+  bottom: 4.5rem;
+  z-index: 100;
+  transition: all 0.3s ease 0s;
+}
+
+.buyCrypto > button {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 24px;
+
+  background: rgb(12, 108, 242);
+  border: transparent;
+  font-size: 1.25rem;
+}
+
+.buyCrypto > button > img {
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
 @media (max-width: 425px) {
   .learnmore {
     font-size: 3.3vw;
@@ -163,5 +192,11 @@ button.signup {
 
   .container-menu {
     display: none;
+  }
+
+  .buyCrypto {
+    right: 0rem;
+    bottom: 1rem;
+    margin: 0px 1rem;
   }
 }
