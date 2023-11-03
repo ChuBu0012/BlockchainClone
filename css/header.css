@@ -9,7 +9,6 @@
 }
 
 body {
-  overflow-y: scroll;
   padding-bottom: 7.5rem;
 }
 
@@ -189,6 +188,7 @@ button.signup {
 
   nav {
     padding-left: 16px;
+    top: 38px;
   }
 
   .container-menu {
