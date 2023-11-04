@@ -172,7 +172,7 @@
     margin-left: 40px;
   }
 
-  .scroll-bar {
+  .exchange-scroll-bar {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -181,12 +181,12 @@
     margin-top: 30px;
   }
 
-  .arrow {
+  .exchange-arrow {
     display: flex;
     gap: 10px;
   }
 
-  .arrow > div {
+  .exchange-arrow > div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -201,26 +201,26 @@
     color: rgb(12, 108, 242);
   }
 
-  .status-menu {
+  .exchange-status-menu {
     display: flex;
     gap: 8px;
   }
 
-  .status-menu > .dash {
+  .exchange-status-menu > .dash {
     background-color: rgb(216, 235, 253);
     height: 0.25rem;
     width: 1.25rem;
     margin: 0px;
     border-radius: 0.125rem;
   }
-  .status-menu > :first-child {
+  .exchange-status-menu > :first-child {
     background-color: rgb(12, 108, 242);
   }
-  .scroll-bar + div {
+  .exchange-scroll-bar + div {
     margin-top: 30px;
     width: 100%;
   }
-  .scroll-bar + div > h3 {
+  .exchange-scroll-bar + div > h3 {
     font-size: 1rem;
   }
   .scroll-bar + div > p {
@@ -231,7 +231,7 @@
     transition: opacity 0.2s;
   }
 
-  .scroll-bar + div > h3:hover + p {
+  .exchange-scroll-bar + div > h3:hover + p {
     opacity: 1;
   }
 }

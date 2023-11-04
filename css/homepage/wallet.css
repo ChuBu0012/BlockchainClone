@@ -159,7 +159,7 @@
     margin-left: 40px;
   }
 
-  .scroll-bar {
+  .wallet-scroll-bar {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -168,12 +168,12 @@
     margin-top: 30px;
   }
 
-  .arrow {
+  .wallet-arrow {
     display: flex;
     gap: 10px;
   }
 
-  .arrow > div {
+  .wallet-arrow > div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -188,28 +188,28 @@
     color: rgb(115, 73, 242);
   }
 
-  .status-menu {
+  .wallet-status-menu {
     display: flex;
     gap: 8px;
   }
 
-  .status-menu > .dash {
+  .wallet-status-menu > .dash {
     background-color: rgb(222, 216, 253);
     height: 0.25rem;
     width: 1.25rem;
     margin: 0px;
     border-radius: 0.125rem;
   }
-  .status-menu > :first-child {
+  .wallet-status-menu > :first-child {
     background-color: rgb(115, 73, 242);
   }
-  .scroll-bar + div {
+  .wallet-scroll-bar + div {
     margin-top: 30px;
   }
-  .scroll-bar + div > h3 {
+  .wallet-scroll-bar + div > h3 {
     font-size: 1rem;
   }
-  .scroll-bar + div > p {
+  .wallet-scroll-bar + div > p {
     margin-top: 10px;
     line-height: 1.5rem;
     max-width: 95%;
@@ -217,7 +217,7 @@
     transition: opacity 0.2s;
   }
 
-  .scroll-bar + div > h3:hover + p {
+  .wallet-scroll-bar + div > h3:hover + p {
     opacity: 1;
   }
 }
