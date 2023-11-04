@@ -1,0 +1,44 @@
+.letustake {
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: rgb(18, 29, 51)
+    url("https://www.blockchain.com/static/img/banner/banner-bg.svg") no-repeat -0.0625rem
+    center;
+  color: #fff;
+}
+
+.letustake h2 {
+  font-size: 2.5rem;
+  margin-right: 2rem;
+  font-weight: 600;
+  line-height: 3.25rem;
+}
+
+.letustake a {
+  padding: 12px 22px;
+  background-color: #fff;
+  font-size: 1.125rem;
+  color: rgb(12, 108, 242);
+  border-radius: 0.5rem;
+  border: 0.125rem solid transparent;
+}
+
+@media (max-width: 425px) {
+  .letustake {
+    padding: 40px 16px;
+    justify-content: flex-start;
+  }
+  .letustake h2 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-bottom: 20px;
+    font-weight: normal;
+  }
+  .letustake a {
+    padding: 10px 14px;
+    font-size: 0.875rem;
+  }
+}
