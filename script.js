@@ -58,4 +58,38 @@ document.addEventListener("DOMContentLoaded", function () {
             resetElementsExchange(i);
         });
     });
+
+    const explore_menu = document.querySelectorAll(".explore-menu");
+    const explore_content = document.querySelectorAll(".explore-menu p");
+    const explore_img = document.querySelector(".explore-img > img");
+    const explore_img_select = ['./assetsBlockchain/homepage/prod-explore-blockchains.png',
+        './assetsBlockchain/homepage/prod-explore-api.png',
+        './assetsBlockchain/homepage/prod-explore-charts.png',
+        './assetsBlockchain/homepage/prod-explore-prices.png'];
+
+
+    function resetElementsExplore(excludeIndex) {
+        explore_menu.forEach((ele, j) => {
+            ele.style.height = j === excludeIndex ? "auto" : "56px";
+            ele.style.backgroundColor = j === excludeIndex ? "rgb(255, 242, 229)" : "rgb(255, 248, 242)";
+            explore_content[j].style.marginTop = j === excludeIndex ? "8px" : "0px";
+            explore_content[j].style.height = j === excludeIndex ? '48px' : "0";
+        });
+
+        explore_img.src = explore_img_select[excludeIndex];
+    }
+
+    resetElementsExplore(0);
+
+    explore_menu.forEach((ele, i) => {
+        ele.addEventListener("click", () => {
+            resetElementsExplore(i);
+        });
+    });
+
 });
+
+// explore
+// rgb(255, 242, 229)
+
+

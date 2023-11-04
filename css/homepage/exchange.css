@@ -231,7 +231,7 @@
     transition: opacity 0.2s;
   }
 
-  .exchange-scroll-bar + div > h3:hover + p {
+  .scroll-bar + div > h3:hover + p {
     opacity: 1;
   }
 }

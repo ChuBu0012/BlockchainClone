@@ -1,4 +1,4 @@
-.wallet {
+.explore {
   display: flex;
   justify-content: space-between;
 
@@ -6,23 +6,26 @@
   min-height: 52.5rem;
   margin: 3.75rem auto;
 
-  padding: 70px 0px 70px 140px;
+  padding: 100px 0px 100px 140px;
   padding-bottom: 0;
 
-  background: rgba(239, 236, 254, 0.5)
-    url("../../assetsBlockchain/homepage/homepage-app-shapes-bg.png") no-repeat
-    right bottom 2.5rem;
+  background: rgba(255, 242, 229, 0.5)
+    url("../../assetsBlockchain/homepage/homepage-explorer-shapes-bg.png")
+    no-repeat right bottom 2.5rem;
 
   border-radius: 1rem;
 }
 
-.wallet-content {
-  color: #7349f2;
+.explore-content {
+  color: rgb(242, 139, 36);
   flex: 1;
+
+  min-width: 640px;
 }
 
-.wallet-btn {
-  background: rgb(239, 236, 254);
+.explore-btn {
+  background: rgb(255, 242, 229);
+  color: rgb(242, 139, 36);
   padding: 16px;
   margin-bottom: 1.25rem;
   border-radius: 1.25rem;
@@ -32,30 +35,30 @@
 
   width: fit-content;
 }
-.wallet-btn > .img {
+.explore-btn > .img {
   width: 32px;
   display: grid;
   place-items: center;
 }
-.wallet-btn img {
+.explore-btn img {
   height: 32px;
 }
-.wallet-btn > p {
+.explore-btn > p {
   margin-left: 10px;
   font-size: 18px;
 }
 
-.wallet h2 {
+.explore h2 {
   margin: 0px 0px 1.875rem;
   max-width: 30.5rem;
   font-size: 2.5rem;
   line-height: 3.25rem;
 }
 
-.wallet-menu {
-  background-color: rgb(247, 245, 255);
+.explore-menu {
+  background-color: rgb(255, 248, 242);
 
-  border: 1px solid rgb(222, 216, 253);
+  border: 1px solid rgb(250, 228, 205);
 
   margin-bottom: 0.75rem;
   padding: 1rem 1.25rem 1rem;
@@ -67,14 +70,14 @@
   cursor: pointer;
 }
 
-.wallet-menu > h3 {
-  color: rgb(115, 73, 242);
+.explore-menu > h3 {
+  color: rgb(242, 139, 36);
   font-weight: 600;
   font-size: 1rem;
   transition: 0.25s ease 0s;
 }
 
-.wallet-menu > p {
+.explore-menu > p {
   max-width: 80%;
   margin-top: 0px; /*8px*/
   font-size: 1rem;
@@ -84,13 +87,13 @@
   height: 100%;
 }
 
-.wallet-menu ~ button {
+.explore-menu ~ button {
   margin-top: 104px;
   padding: 0.75rem 1.375rem;
 
-  background-color: rgb(115, 73, 242);
+  background-color: rgb(242, 139, 36);
   color: white;
-  border: 0.125rem solid rgb(115, 73, 242);
+  border: 0.125rem solid transparent;
   border-radius: 0.5rem;
 
   font-size: 1.125rem;
@@ -98,53 +101,58 @@
   cursor: pointer;
 }
 
-.wallet-menu ~ button:hover {
-  background-color: rgb(83, 34, 229);
+.explore-menu ~ button:hover {
+  background-color: rgb(217, 103, 22);
 }
 
-.wallet-img {
+.explore-img {
   flex: 1;
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
+  position: relative;
+  left: -60px;
 }
 
-.wallet-img-mobile {
+.explore-img-mobile {
   display: none;
 }
 
 @media (max-width: 425px) {
-  .wallet {
+  .explore {
     padding: 16px;
     flex-direction: column;
 
     margin: 60px 1rem;
 
-    background: rgba(239, 236, 254, 0.5);
+    background: rgba(255, 242, 229, 0.5);
   }
-  .wallet h2 {
+  .explore h2 {
     font-size: 1.25rem;
     max-width: 22rem;
     line-height: 1.75rem;
   }
-
-  .wallet-menu {
+  .explore-menu {
     display: none;
   }
 
-  .wallet-img {
+  .explore-content {
+    min-width: 0;
+  }
+
+  .explore-img {
     display: none;
   }
 
-  .wallet-menu ~ button {
+  .explore-menu ~ button {
     margin-top: auto;
     font-size: 0.875rem;
     padding: 0.625rem 0.875rem;
   }
 
-  .wallet-img-mobile {
-    background: url("../../assetsBlockchain/homepage/homepage-app-shapes-bg.png")
-      no-repeat;
+  .explore-img-mobile {
+    /* background: url("../../assetsBlockchain/homepage/homepage-explorer-shapes-bg.png")
+      no-repeat; */
     background-size: contain;
     margin: 32px 0px 24px;
 
@@ -152,13 +160,16 @@
     place-items: center;
   }
 
-  .wallet-img-mobile > img {
+  .explore-img-mobile > img {
     min-height: 350px;
     height: 375px;
-    margin-left: 40px;
+
+    object-fit: contain;
+
+    max-width: 361px;
   }
 
-  .wallet-scroll-bar {
+  .explore-scroll-bar {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -167,12 +178,12 @@
     margin-top: 30px;
   }
 
-  .wallet-arrow {
+  .explore-arrow {
     display: flex;
     gap: 10px;
   }
 
-  .wallet-arrow > div {
+  .explore-arrow > div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -182,33 +193,33 @@
     bottom: auto;
     z-index: 1;
 
-    border: 1px solid rgb(115, 73, 242);
+    border: 1px solid rgb(242, 139, 36);
     border-radius: 8px;
-    color: rgb(115, 73, 242);
+    color: rgb(242, 139, 36);
   }
 
-  .wallet-status-menu {
+  .explore-status-menu {
     display: flex;
     gap: 8px;
   }
 
-  .wallet-status-menu > .dash {
-    background-color: rgb(222, 216, 253);
+  .explore-status-menu > .dash {
+    background-color: rgb(250, 228, 205);
     height: 0.25rem;
     width: 1.25rem;
     margin: 0px;
     border-radius: 0.125rem;
   }
-  .wallet-status-menu > :first-child {
-    background-color: rgb(115, 73, 242);
+  .explore-status-menu > :first-child {
+    background-color: rgb(242, 139, 36);
   }
-  .wallet-scroll-bar + div {
+  .explore-scroll-bar + div {
     margin-top: 30px;
   }
-  .wallet-scroll-bar + div > h3 {
+  .explore-scroll-bar + div > h3 {
     font-size: 1rem;
   }
-  .wallet-scroll-bar + div > p {
+  .explore-scroll-bar + div > p {
     margin-top: 10px;
     line-height: 1.5rem;
     max-width: 95%;
@@ -216,7 +227,7 @@
     transition: opacity 0.2s;
   }
 
-  .wallet-scroll-bar + div > h3:hover + p {
+  .explore-scroll-bar + div > h3:hover + p {
     opacity: 1;
   }
 }
