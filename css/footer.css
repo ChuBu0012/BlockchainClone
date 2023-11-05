@@ -96,6 +96,7 @@ footer {
 }
 
 .contact-box-2 > div > select {
+  background: transparent;
   border: none;
   border-radius: 0.5rem;
   font-size: 1rem;

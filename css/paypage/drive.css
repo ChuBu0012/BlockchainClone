@@ -1,0 +1,96 @@
+.container-drive {
+  background: rgba(239, 236, 254, 0.5)
+    url("../../assetsBlockchain/paypage/keys-bg.svg") no-repeat left center;
+  background-size: 70rem;
+  color: rgb(80, 89, 107);
+}
+.drive {
+  box-sizing: content-box;
+  display: flex;
+  align-items: center;
+  padding: 13.6875rem 2.5rem 9.1875rem;
+  max-width: 62.5rem;
+  margin: 0 auto;
+}
+.drive > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  max-width: 60%;
+}
+.drive-content {
+  flex: 0 0 25.1875rem;
+  align-self: center;
+}
+.drive-content > div {
+  background-color: rgb(239, 236, 254);
+  border-radius: 1.25rem;
+  padding: 0.75rem;
+
+  color: rgb(115, 73, 242);
+  margin-bottom: 1.5rem;
+  width: fit-content;
+}
+.drive-content > h2 {
+  color: rgb(18, 29, 51);
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 3.25rem;
+}
+
+.drive-content > p {
+  margin-bottom: 2rem;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+.drive-content > p > span {
+  color: rgb(12, 108, 242);
+  cursor: pointer;
+}
+
+.drive-content > button,
+.blue-btn {
+  padding: 0.75rem 1.375rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 144%;
+  border-radius: 0.5rem;
+  border: 0.125rem solid transparent;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background: rgb(12, 108, 242);
+}
+
+@media (max-width: 425px) {
+  .drive {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 10rem 1rem 0px;
+    padding-top: 8rem;
+    gap: 4rem;
+  }
+
+  .drive-content > div {
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+  }
+
+  .drive-content > h2 {
+    width: 90%;
+    margin-inline: auto;
+  }
+
+  .drive-content > p {
+    font-size: 1rem;
+  }
+  .drive > img {
+    max-width: none;
+  }
+  .drive-content > button,
+  .blue-btn {
+    font-size: 0.875rem;
+    padding: 0.625rem 0.875rem;
+  }
+}
