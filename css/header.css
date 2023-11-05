@@ -9,8 +9,6 @@
 }
 
 body {
-  padding-bottom: 7.5rem;
-
   overflow-x: hidden;
 }
 
@@ -46,6 +44,18 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+
+.learnmore:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(7, 13, 23),
+    rgb(8, 50, 82),
+    rgb(11, 48, 112),
+    rgb(8, 50, 82),
+    rgb(7, 13, 23)
+  );
 }
 
 /* Navbar */
@@ -132,6 +142,13 @@ button.search {
   height: 2.75rem;
   border-radius: 50%;
   margin-right: 1.25rem;
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+button.search:hover {
+  background: rgba(255, 255, 255, 0.25);
 }
 
 button.login {
@@ -143,16 +160,27 @@ button.login {
   margin-right: 1.25rem;
   min-height: 44px;
   font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button.login:hover {
+  opacity: 0.85;
 }
 
 button.signup {
-  border: 0.125rem solid rgb(255, 255, 255);
+  border: 0.125rem solid transparent;
   color: rgb(18, 29, 51);
   border-radius: 0.5rem;
   padding: 10px 14px;
   margin-right: 1.25rem;
   min-height: 44px;
   font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+button.signup:hover {
+  background-color: rgb(223, 227, 235);
 }
 
 .buyCrypto {

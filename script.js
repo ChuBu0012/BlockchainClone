@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
             ele.style.height = j === excludeIndex ? "auto" : "56px";
             ele.style.backgroundColor = j === excludeIndex ? "rgb(239, 236, 254)" : "rgb(247, 245, 255)";
             wallet_content[j].style.marginTop = j === excludeIndex ? "8px" : "0px";
-            wallet_content[j].style.height = j === excludeIndex ? '48px' : "0";
+            wallet_content[j].style.height = j === excludeIndex ? '100%' : "0";
         });
         wallet_img.src = wallet_img_select[excludeIndex];
     }
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
             ele.style.height = j === excludeIndex ? "auto" : "56px";
             ele.style.backgroundColor = j === excludeIndex ? "rgb(236, 245, 254)" : "rgb(245, 250, 254)";
             exchange_content[j].style.marginTop = j === excludeIndex ? "8px" : "0px";
-            exchange_content[j].style.height = j === excludeIndex ? '48px' : "0";
+            exchange_content[j].style.height = j === excludeIndex ? '100%' : "0";
         });
 
         exchange_img.src = exchange_img_select[excludeIndex];
@@ -47,7 +47,6 @@ document.addEventListener("DOMContentLoaded", function () {
             exchange_img.style.right = "60px";
         } else {
             exchange_img.style.right = "0px";
-
         }
     }
 
@@ -73,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
             ele.style.height = j === excludeIndex ? "auto" : "56px";
             ele.style.backgroundColor = j === excludeIndex ? "rgb(255, 242, 229)" : "rgb(255, 248, 242)";
             explore_content[j].style.marginTop = j === excludeIndex ? "8px" : "0px";
-            explore_content[j].style.height = j === excludeIndex ? '48px' : "0";
+            explore_content[j].style.height = j === excludeIndex ? '100%' : "0";
         });
 
         explore_img.src = explore_img_select[excludeIndex];
