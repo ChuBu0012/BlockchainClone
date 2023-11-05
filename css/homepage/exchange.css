@@ -223,7 +223,7 @@
   .exchange-scroll-bar + div > h3 {
     font-size: 1rem;
   }
-  .scroll-bar + div > p {
+  .exchange-scroll-bar + div > p {
     margin-top: 10px;
     line-height: 1.5rem;
     max-width: 95%;
@@ -231,7 +231,7 @@
     transition: opacity 0.2s;
   }
 
-  .scroll-bar + div > h3:hover + p {
+  .exchange-scroll-bar + div > h3:hover + p {
     opacity: 1;
   }
 }
