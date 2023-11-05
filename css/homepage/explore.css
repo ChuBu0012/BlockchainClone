@@ -158,15 +158,14 @@
 
     display: grid;
     place-items: center;
+    width: 100%;
   }
 
   .explore-img-mobile > img {
     min-height: 350px;
     height: 375px;
-
+    width: 100%;
     object-fit: contain;
-
-    max-width: 361px;
   }
 
   .explore-scroll-bar {
