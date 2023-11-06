@@ -1,0 +1,137 @@
+.container-partner {
+  max-width: 62.5rem;
+  margin: 0 auto;
+  padding: 0 2.5rem;
+  box-sizing: content-box;
+}
+.partner {
+  padding: 5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  justify-content: space-between;
+}
+
+.partner > div {
+  flex: 1;
+}
+
+.partner-content {
+  max-width: 25.125rem;
+  width: 100%;
+}
+
+.partner-content > h2 {
+  color: rgb(18, 29, 51);
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 3.25rem;
+  width: 95%;
+}
+
+.partner-content > p {
+  margin-bottom: 2rem;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: rgb(80, 89, 107);
+}
+
+.partner-img {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-rate {
+  display: flex;
+  width: 100%;
+  max-width: 62.5rem;
+  padding: 40px;
+  margin: 0 auto;
+  align-items: center;
+  border-radius: 32px;
+  box-shadow: rgba(37, 11, 115, 0.08) 0px 4px 40px 0px,
+    rgba(37, 11, 115, 0.12) 0px 2px 4px 0px;
+  margin-bottom: 5rem;
+}
+
+.rate-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+  padding: 0 0.5rem;
+}
+
+.rate-box > .icon-bg-purple {
+  margin-bottom: 0;
+}
+
+.rate-line {
+  width: 1px;
+  margin: 20px 0px;
+  background: rgb(240, 242, 247);
+  height: 144px;
+}
+
+.rate-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.rate-content > h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 3.25rem;
+  color: rgb(18, 29, 51);
+}
+
+.rate-content > p {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: rgb(80, 89, 107);
+  max-width: 105px;
+  text-align: center;
+}
+@media (max-width: 425px) {
+  .partner {
+    flex-direction: column;
+    padding: 3rem 0px 1.5rem;
+    gap: 1.5rem;
+
+    text-align: center;
+  }
+  .container-partner {
+    padding: 0 1rem;
+  }
+  .partner-content > h2 {
+    margin-bottom: 0.75rem;
+    font-size: 2.5rem;
+    line-height: 130%;
+  }
+  .partner-content > p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .container-rate {
+    flex-direction: column;
+    display: flex;
+    max-width: 382px;
+    margin-bottom: 3rem;
+  }
+  .rate-line {
+    display: flex;
+    box-sizing: border-box;
+    width: 144px;
+    margin: 20px;
+    background: rgb(240, 242, 247);
+    height: 1px;
+  }
+}

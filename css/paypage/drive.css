@@ -22,7 +22,7 @@
   flex: 0 0 25.1875rem;
   align-self: center;
 }
-.drive-content > div {
+.icon-bg-purple {
   background-color: rgb(239, 236, 254);
   border-radius: 1.25rem;
   padding: 0.75rem;
@@ -72,7 +72,7 @@
     gap: 4rem;
   }
 
-  .drive-content > div {
+  .icon-bg-purple {
     margin: 0 auto;
     margin-bottom: 1.5rem;
   }

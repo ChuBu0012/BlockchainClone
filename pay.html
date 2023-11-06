@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/paypage/comingsoon.css" />
     <link rel="stylesheet" href="./css/paypage/drive.css" />
-
+    <link rel="stylesheet" href="/css/paypage/1-click.css" />
+    <link rel="stylesheet" href="./css/paypage/easily.css" />
+    <link rel="stylesheet" href="./css/paypage/partner.css" />
+    <link rel="stylesheet" href="./css/paypage/wantto.css" />
     <link rel="stylesheet" href="./css/footer.css" />
   </head>
   <body>
@@ -28,7 +31,7 @@
               <li><a href="#">Exchange</a></li>
               <li><a href="#">Explorer</a></li>
               <li><a href="pay.html">Pay</a></li>
-              <li><a href="#">Institutional</a></li>
+              <li><a href="institutional.html">Institutional</a></li>
               <li>
                 <a>
                   <img src="./assetsBlockchain/homepage/dot.png" alt="dot" />
@@ -74,11 +77,12 @@
         </div>
       </div>
     </div>
+    <!-- Drive -->
     <div class="container-drive">
       <div class="drive">
         <img src="./assetsBlockchain/paypage/bars.png" alt="bars" />
         <div class="drive-content">
-          <div>
+          <div class="icon-bg-purple">
             <img
               src="./assetsBlockchain/paypage/drive-icon.svg"
               alt="drive-icon"
@@ -94,9 +98,134 @@
         </div>
       </div>
     </div>
+    <!-- 1-Click -->
+    <div class="container-1-click">
+      <div class="click-content">
+        <h2>1-click crypto for our millions of KYC’d users</h2>
+        <p>
+          With over 80M Blockchain.com Wallets, it’s a seamless 1-click
+          experience to buy and sell for users who have already KYC’d at
+          Blockchain.com.
+        </p>
+        <button class="blue-btn">Contact Us</button>
+      </div>
+      <div class="click-map"></div>
+    </div>
+
+    <!-- Easily -->
+    <div class="container-easily">
+      <div class="easily-code">
+        <img src="./assetsBlockchain/paypage/code.png" alt="code" />
+      </div>
+      <div class="easily-content">
+        <div class="icon-bg-purple">
+          <img
+            src="./assetsBlockchain/paypage/easily-icon.svg"
+            alt="easily-icon"
+          />
+        </div>
+        <h2>Easily integrate with a few lines of code</h2>
+        <p>
+          Add fiat payments with major payment methods across 200+ regions, with
+          just a few lines of code.
+        </p>
+        <div class="easily-btn">
+          <button class="blue-btn">Get in touch</button>
+          <button
+            class="blue-btn"
+            style="
+              color: rgb(12, 108, 242);
+              background-color: #fff;
+              border: 1px solid rgb(223, 227, 235);
+            "
+          >
+            Read Documentation
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Partner -->
+    <div class="container-partner">
+      <div class="partner">
+        <div class="partner-content">
+          <div class="icon-bg-purple">
+            <img src="./assetsBlockchain/paypage/partner-icon.png" alt="" />
+          </div>
+          <h2>Partner with a leading crypto brand</h2>
+          <p>
+            Since 2011, Blockchain.com has been trusted by 80M+ wallets and 37M+
+            verified users to transact over $1T in crypto. We are fully licensed
+            across applicable global jurisdictions.
+          </p>
+          <button class="blue-btn">Contact Us</button>
+        </div>
+        <div class="partner-img">
+          <img src="./assetsBlockchain/paypage/iso27001.png" alt="iso27001" />
+          <img src="./assetsBlockchain/paypage/soc2type2.png" alt="soc2type2" />
+        </div>
+      </div>
+      <div class="container-rate">
+        <div class="rate-box">
+          <div class="icon-bg-purple">
+            <img src="./assetsBlockchain/paypage/partner-icon.png" alt="" />
+          </div>
+          <div class="rate-content">
+            <h2>37M+</h2>
+            <p>Verified users</p>
+          </div>
+        </div>
+        <div class="rate-line"></div>
+        <div class="rate-box">
+          <div class="icon-bg-purple">
+            <img src="./assetsBlockchain/paypage/world-purple.png" alt="" />
+          </div>
+          <div class="rate-content">
+            <h2>198</h2>
+            <p>Supported regions</p>
+          </div>
+        </div>
+        <div class="rate-line"></div>
+        <div class="rate-box">
+          <div class="icon-bg-purple">
+            <img
+              src="./assetsBlockchain/paypage/transactions-purple.png"
+              alt=""
+            />
+          </div>
+          <div class="rate-content">
+            <h2>$1T+</h2>
+            <p style="max-width: none">Transactions processed</p>
+          </div>
+        </div>
+        <div class="rate-line"></div>
+        <div class="rate-box">
+          <div class="icon-bg-purple">
+            <img src="./assetsBlockchain/paypage/bitcoin-purple.png" alt="" />
+          </div>
+          <div class="rate-content">
+            <h2>1/3rd</h2>
+            <p style="max-width: none">Of all Bitcoin network transactions</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Want to get -->
+    <div class="container-wantto">
+      <div class="wantto">
+        <div class="wantto-content">
+          <h2>Want to get started?</h2>
+          <p>Contact pay@blockchain.com today.</p>
+        </div>
+        <button class="blue-btn" style="background: #fff; color: black">
+          Get in touch
+        </button>
+      </div>
+    </div>
 
     <!-- Footer -->
-    <!-- <footer>
+    <footer>
       <div class="footer-content">
         <div class="footer-contact">
           <div class="contact-box">
@@ -123,8 +252,8 @@
                 <li><a href="#">Wallet</a></li>
                 <li><a href="#">Exchange</a></li>
                 <li><a href="#">Explorer</a></li>
-                <li><a href="#">Pay</a></li>
-                <li><a href="#">Institutional</a></li>
+                <li><a href="./pay.html">Pay</a></li>
+                <li><a href="./institutional.html">Institutional</a></li>
                 <li><a href="#">Earn</a></li>
                 <li><a href="#">Card</a></li>
                 <li><a href="#">Learn</a></li>
@@ -194,6 +323,6 @@
           </div>
         </div>
       </div>
-    </footer> -->
+    </footer>
   </body>
 </html>

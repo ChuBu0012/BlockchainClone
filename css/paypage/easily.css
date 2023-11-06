@@ -1,0 +1,62 @@
+.container-easily {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: content-box;
+  max-width: 62.5rem;
+  margin: 0 auto;
+  padding: 0 2.5rem;
+}
+
+.easily-code > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.easily-content {
+  max-width: 25.1875rem;
+  padding: 15rem 0;
+}
+
+.easily-content > h2 {
+  color: rgb(18, 29, 51);
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 3.25rem;
+}
+
+.easily-content > p {
+  margin-bottom: 2rem;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: rgb(80, 89, 107);
+}
+
+.easily-btn {
+  display: flex;
+  gap: 1rem;
+}
+
+@media (max-width: 425px) {
+  .container-easily {
+    flex-direction: column-reverse;
+    gap: 2.5rem;
+    padding: 0;
+  }
+  .easily-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5.5rem 0px 0px;
+    text-align: center;
+    max-width: none;
+  }
+  .easily-content > p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}

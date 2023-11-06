@@ -1,0 +1,63 @@
+.container-1-click {
+  background: linear-gradient(
+    rgb(255, 255, 255) 0%,
+    rgba(239, 236, 254, 0.2) 100%
+  );
+  padding: 7.5rem 0px 2.5rem;
+}
+
+.click-content {
+  color: rgb(80, 89, 107);
+  background: #fff;
+  height: 10rem;
+  max-width: 35.75rem;
+  padding: 0px 2.5rem;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+
+  box-sizing: content-box;
+}
+
+.click-content > h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 3.25rem;
+
+  color: rgb(18, 29, 51);
+}
+
+.click-content > p {
+  margin-bottom: 2rem;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
+.click-map {
+  height: 41.5rem;
+  width: 100%;
+  background: url("../../assetsBlockchain/paypage/map.svg") no-repeat center
+    center / auto 100%;
+}
+
+@media (max-width: 425px) {
+  .container-1-click {
+    padding-top: 3rem;
+  }
+  .click-map {
+    height: 37rem;
+  }
+  .click-content {
+    padding: 0 1rem;
+  }
+  .click-content > h2 {
+    padding: 0 2px;
+  }
+  .click-content > p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
