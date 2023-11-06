@@ -212,6 +212,44 @@ button.signup:hover {
   border-radius: 50%;
 }
 
+.icon-bg-purple {
+  background-color: rgb(239, 236, 254);
+  border-radius: 1.25rem;
+  padding: 0.75rem;
+
+  color: rgb(115, 73, 242);
+  margin-bottom: 1.5rem;
+  width: fit-content;
+}
+
+.blue-btn {
+  padding: 0.75rem 1.375rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 144%;
+  border-radius: 0.5rem;
+  border: 0.125rem solid transparent;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background: rgb(12, 108, 242);
+}
+
+.page-active {
+  position: relative;
+}
+.page-active > a {
+  color: #fff;
+}
+.page-active::after {
+  content: "";
+  position: absolute;
+  bottom: -24px;
+  left: 0;
+  width: 100%;
+  border: 1px solid #fff;
+}
+
 @media (max-width: 425px) {
   .learnmore {
     font-size: 3.3vw;
@@ -230,5 +268,14 @@ button.signup:hover {
     right: 0rem;
     bottom: 1rem;
     margin: 0px 1rem;
+  }
+
+  .icon-bg-purple {
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+  }
+  .blue-btn {
+    font-size: 0.875rem;
+    padding: 0.625rem 0.875rem;
   }
 }
