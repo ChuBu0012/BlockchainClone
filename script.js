@@ -16,9 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
         wallet_img.src = wallet_img_select[excludeIndex];
     }
-
     resetElements(0);
-
     wallet_menu.forEach((ele, i) => {
         ele.addEventListener("click", () => {
             resetElements(i);
@@ -49,9 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
             exchange_img.style.right = "0px";
         }
     }
-
     resetElementsExchange(0);
-
     exchange_menu.forEach((ele, i) => {
         ele.addEventListener("click", () => {
             resetElementsExchange(i);
@@ -77,18 +73,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
         explore_img.src = explore_img_select[excludeIndex];
     }
-
     resetElementsExplore(0);
-
     explore_menu.forEach((ele, i) => {
         ele.addEventListener("click", () => {
             resetElementsExplore(i);
         });
     });
-
 });
-
-// explore
-// rgb(255, 242, 229)
-
 
