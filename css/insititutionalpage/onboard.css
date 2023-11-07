@@ -1,0 +1,92 @@
+.container-onboard {
+  padding: 7.5rem 0 4.5rem 0;
+  border-bottom: 1px solid rgb(223, 227, 235);
+}
+
+.onboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  box-sizing: content-box;
+  max-width: 62.5rem;
+  margin: 0px auto;
+  padding: 0px 2.5rem;
+}
+
+.onboard > h2 {
+  margin: 1.5rem 0;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+  font-weight: 600;
+}
+
+.onboard > h2 + p {
+  margin-bottom: 4rem;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+}
+
+.onboard > p ~ p {
+  margin: 1.5rem 0;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.onboard-process {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 3.4375rem;
+}
+
+.onboard-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 17.125rem;
+}
+
+.onboard-item > p {
+  margin: 1rem 0;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+@media (max-width: 425px) {
+  .container-onboard {
+    padding: 2.5rem 0;
+  }
+
+  .onboard {
+    padding: 0px 1rem;
+  }
+  .onboard > h2 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .onboard > h2 + p {
+    margin-bottom: 1.875rem;
+    font-size: 1.0625rem;
+    line-height: 1.5rem;
+  }
+
+  .onboard-process {
+    flex-direction: column;
+    gap: 1rem;
+    margin-block-end: 1.875rem;
+  }
+
+  .arrowright {
+    height: 2.625rem;
+  }
+  .arrowright > img {
+    position: relative;
+    top: -70px;
+    transform: rotate(90deg);
+  }
+}

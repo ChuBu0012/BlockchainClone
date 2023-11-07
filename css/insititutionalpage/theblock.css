@@ -1,0 +1,105 @@
+.container-theblock {
+  padding-block: 6.25rem;
+  overflow: hidden;
+  border-bottom: 1px solid rgb(223, 227, 235);
+  background-image: url("../../assetsBlockchain/insititutionalpage/institutional-advantage-background.png");
+  background-size: 1136px;
+  background-repeat: no-repeat;
+  background-position: left 90% top 169px;
+}
+
+.theblock {
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: content-box;
+  max-width: 62.5rem;
+  margin: 0px auto;
+  padding: 0px 2.5rem;
+}
+
+.theblock > h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 3.25rem;
+}
+
+.theblock > p {
+  margin-bottom: 2.5rem;
+  max-width: 656px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.125rem;
+}
+
+.theblock-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem 1.5625rem;
+  max-width: 658px;
+}
+
+.theblock-item {
+  background-color: rgb(236, 245, 254);
+  background-image: url("../../assetsBlockchain/insititutionalpage/theblock-blue.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+  color: rgb(12, 108, 242);
+  min-height: 15rem;
+  padding: 4.6875rem 1.25rem 3.75rem 2.5rem;
+}
+
+.theblock-green {
+  background: rgb(230, 250, 236)
+    url("../../assetsBlockchain/insititutionalpage/theblock-green.svg");
+  color: rgb(0, 102, 51);
+}
+.theblock-orange {
+  background: rgb(255, 242, 229)
+    url("../../assetsBlockchain/insititutionalpage/theblock-orange.svg");
+  color: rgb(179, 68, 0);
+}
+.theblock-red {
+  background: rgb(252, 237, 235)
+    url("../../assetsBlockchain/insititutionalpage/theblock-red.svg");
+  color: rgb(165, 13, 13);
+}
+
+.theblock-item > h2 {
+  font-size: 3rem;
+  line-height: 3.625rem;
+}
+
+@media (max-width: 425px) {
+  .container-theblock {
+    padding: 2.5rem 0;
+    background: none;
+  }
+  .theblock {
+    padding: 0 1rem;
+  }
+  .theblock > h2 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  .theblock > p {
+    margin-bottom: 1.5rem;
+    max-width: 656px;
+    font-size: 1.0625rem;
+    line-height: 1.5rem;
+  }
+  .theblock-grid {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+  .theblock-item {
+    min-height: auto;
+    padding: 1.25rem;
+  }
+  .theblock-item > h2 {
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+  }
+}
