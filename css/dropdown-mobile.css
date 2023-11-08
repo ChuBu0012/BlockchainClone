@@ -179,7 +179,7 @@
   background: transparent;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .mobile-sidebar-btn,
   .mobile-sidebar {
     display: inherit;

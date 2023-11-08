@@ -114,7 +114,7 @@
   display: none;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .institutional {
     padding: 16px;
     flex-direction: column;

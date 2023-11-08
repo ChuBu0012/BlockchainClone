@@ -173,7 +173,7 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .early .content {
     padding: 0px 1rem;
   }

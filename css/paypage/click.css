@@ -42,7 +42,7 @@
     center / auto 100%;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .container-1-click {
     padding-top: 3rem;
   }

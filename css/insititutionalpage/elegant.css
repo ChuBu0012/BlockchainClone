@@ -42,7 +42,7 @@
   line-height: 1.5rem;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .container-elegant {
     padding: 2.5rem 0;
   }

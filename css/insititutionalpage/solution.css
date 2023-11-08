@@ -68,7 +68,7 @@
   max-width: 295px;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .container-solution {
     background-size: 28rem, cover;
   }

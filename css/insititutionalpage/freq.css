@@ -94,7 +94,7 @@
   color: rgb(12, 108, 242);
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .container-freq {
     padding-top: 3.75rem;
   }

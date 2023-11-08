@@ -99,7 +99,7 @@
   max-width: 105px;
   text-align: center;
 }
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .partner {
     flex-direction: column;
     padding: 3rem 0px 1.5rem;
