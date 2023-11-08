@@ -328,6 +328,8 @@ button.signup:hover {
   border: 1px solid #fff;
 }
 
+
+
 @media (max-width: 425px) {
   .learnmore {
     font-size: 3.3vw;
