@@ -295,6 +295,9 @@ button.signup:hover {
   color: rgb(115, 73, 242);
   margin-bottom: 1.5rem;
   width: fit-content;
+
+  display: grid;
+  place-items: center;
 }
 
 .blue-btn {
@@ -333,6 +336,10 @@ button.signup:hover {
   nav {
     padding-left: 16px;
     top: 38px;
+  }
+
+  nav > div {
+    justify-content: space-between;
   }
 
   .container-menu {
