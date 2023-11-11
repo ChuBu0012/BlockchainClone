@@ -40,7 +40,7 @@
   height: 100vh;
   padding-bottom: 10rem;
   background-color: rgb(247, 248, 250);
-  padding-block-start: 4.75rem;
+  padding-top: 4.75rem;
 }
 
 .mobile-sidebar-search {
@@ -96,7 +96,7 @@
 }
 
 .mobile-sidebar-container > section > ul {
-  list-style: none;
+  list-style-type: none;
 }
 
 .mobile-sidebar-container > section > ul > li {

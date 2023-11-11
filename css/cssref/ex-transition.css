@@ -1,0 +1,29 @@
+.ex-transition {
+  margin-top: 3rem;
+}
+.ex-transition > div {
+  width: 200px;
+  height: 100px;
+  background-color: #0c356a;
+  color: white;
+  padding: 1rem;
+  transition: none;
+}
+
+.ex-transition > div:hover {
+  background-color: #0174be;
+}
+
+.ex-transition > div:first-child {
+  width: 200px;
+  height: 100px;
+  background-color: #0c356a;
+  color: white;
+  padding: 1rem;
+  transition: background-color 0.5s;
+}
+
+.ex-transition > div:first-child:hover {
+  background-color: #0174be;
+}
+

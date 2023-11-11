@@ -157,9 +157,6 @@
 
   .exchange-img-mobile {
     display: block;
-    /* background: url("../../assetsBlockchain/homepage/homepage-exchange-shapes-bg.png")
-      no-repeat;
-    background-size: contain; */
     margin: 32px 0px 0;
 
     display: grid;

@@ -1,0 +1,59 @@
+.ex-z-index,
+.ex-content {
+  display: grid;
+  place-items: center;
+}
+.ex-z-index {
+  max-height: 300px;
+}
+
+.z {
+  width: 120px;
+  height: 120px;
+  color: #fff;
+  padding: 10px;
+}
+.z-a {
+  background-color: #f0ebe3;
+  z-index: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.z-b {
+  background-color: #e4dccf;
+  position: relative;
+  z-index: 2;
+  top: -50px;
+  left: 30px;
+}
+.z-c {
+  background-color: #7d9d9c;
+  position: relative;
+  z-index: 1;
+  text-align: right;
+  top: -100px;
+  left: 60px;
+}
+.z-d {
+  background-color: #576f72;
+  position: relative;
+  z-index: 3;
+  top: -180px;
+  left: 90px;
+}
+
+@media (max-width: 426px) {
+  .ex-z-index {
+    margin-top: 3rem;
+    margin-right: 3rem;
+  }
+  .ex-content {
+    gap: 1rem;
+    margin-top: 3rem;
+  }
+  .content-z-index {
+    max-height: 720px;
+  }
+}

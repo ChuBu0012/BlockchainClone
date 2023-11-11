@@ -1,6 +1,6 @@
 .early {
   width: 100%;
-  background: url("https://www.blockchain.com/static/img/home/home-hero-gradient.svg")
+  background: url("../../assetsBlockchain/homepage/home-hero-gradient.jpg")
     no-repeat center bottom;
   background-size: cover;
   padding-top: 7.25rem;

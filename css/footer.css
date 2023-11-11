@@ -51,7 +51,7 @@ footer {
 }
 
 .footer-menu ul {
-  list-style: none;
+  list-style-type: none;
   display: flex;
   flex-direction: column;
   gap: 16px;

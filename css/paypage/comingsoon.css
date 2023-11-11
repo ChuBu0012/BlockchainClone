@@ -78,7 +78,7 @@
 
   .coming-soon-content h2 {
     width: 90%;
-    margin-inline: auto;
+    margin: 0 auto;
   }
 
   .coming-soon-img > img {

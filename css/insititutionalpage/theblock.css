@@ -1,5 +1,5 @@
 .container-theblock {
-  padding-block: 6.25rem;
+  padding: 6.25rem 0;
   overflow: hidden;
   border-bottom: 1px solid rgb(223, 227, 235);
   background-image: url("../../assetsBlockchain/insititutionalpage/institutional-advantage-background.png");
