@@ -1,3 +1,4 @@
+/* sidebar on mobile screen */
 .mobile-sidebar-btn {
   background: transparent;
   border: none;
@@ -16,6 +17,7 @@
   transition: 0.2s;
 }
 
+/* sidebar active */
 .mobile-sidebar-active {
   transform: translateX(0%);
 }

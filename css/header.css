@@ -12,6 +12,7 @@ body {
   overflow-x: hidden;
 }
 
+/* กำหนด Default ของ Hyperlink  */
 a {
   text-decoration: none;
   color: inherit;
@@ -258,6 +259,7 @@ button.signup:hover {
   background-color: rgb(223, 227, 235);
 }
 
+/* float icon */
 .buyCrypto {
   display: flex;
   flex-direction: column;
@@ -334,7 +336,7 @@ button.signup:hover {
   }
 
   nav {
-    padding-left: 16px;
+    padding: 0 16px 0 16px;
     top: 38px;
   }
 
