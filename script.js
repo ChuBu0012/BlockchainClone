@@ -79,5 +79,11 @@ document.addEventListener("DOMContentLoaded", function () {
             resetElementsExplore(i);
         });
     });
+
+    const acceptBtn = document.getElementById("accept-btn");
+    const learnmore = document.getElementsByClassName("learnmore")[0];
+    acceptBtn.addEventListener('click', () => {
+        learnmore.style.display = "none";
+    })
 });
 

@@ -3,7 +3,7 @@
   background: url("../../assetsBlockchain/homepage/home-hero-gradient.jpg")
     no-repeat center bottom;
   background-size: cover;
-  padding-top: 7.25rem;
+  padding-top: 5rem;
 }
 .early > div {
   max-width: 62.5rem;
@@ -156,7 +156,12 @@
 
 .coin-price > span {
   margin-left: 0.5rem;
+}
+.more {
   color: rgb(0, 178, 107);
+}
+.reduce {
+  color: rgb(255, 68, 58);
 }
 
 .more-prices {
