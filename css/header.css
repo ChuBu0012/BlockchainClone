@@ -338,6 +338,18 @@ button.signup:hover {
   border: 1px solid #fff;
 }
 
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+
+  border-bottom: 12px solid #fff;
+  position: absolute;
+  top: 44px;
+  left: 52.5%;
+}
+
 @media (max-width: 426px) {
   .learnmore {
     flex-direction: column;
