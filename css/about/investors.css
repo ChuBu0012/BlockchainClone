@@ -1,0 +1,85 @@
+.container-investors {
+  border: 1px solid rgb(223, 227, 235);
+}
+.investors {
+  box-sizing: content-box;
+  max-width: 62.5rem;
+  margin: 0px auto;
+  padding: 0px 2.5rem;
+}
+.investors-txt {
+  max-width: 400px;
+  padding: 120px 0px 40px;
+}
+
+.investors-txt > h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+}
+
+.investors-txt > p {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.875rem;
+  color: #50596b;
+}
+.grid-inverstors {
+  background-color: rgb(240, 242, 247);
+  border-top: 1px solid rgb(240, 242, 247);
+  border-bottom: 1px solid rgb(240, 242, 247);
+  color: rgb(53, 63, 82);
+  display: grid;
+  grid-template-columns: 1fr 333px 333px 333px 1fr;
+  grid-template-rows: 140px 140px;
+}
+
+.grid-inverstors > div {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  filter: grayscale(100%);
+  border: 1px solid rgb(240, 242, 247);
+}
+
+.grid-inverstors > div img {
+  height: 60px;
+}
+.grid-inverstors > div a {
+  transition: opacity 0.3s ease 0s;
+}
+.grid-inverstors > div a:hover {
+  opacity: 0.6;
+}
+
+@media (max-width: 426px) {
+  .investors {
+    padding: 0px 1rem;
+  }
+  .investors-txt {
+    padding: 60px 0px 40px;
+  }
+  .investors-txt > h2 {
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  .investors-txt > p {
+    font-size: 1.0625rem;
+    line-height: 1.5rem;
+  }
+  .grid-inverstors {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70px 70px 70px;
+  }
+  .grid-inverstors div.space {
+    display: none;
+  }
+  .grid-inverstors > div img {
+    height: 32px;
+  }
+}

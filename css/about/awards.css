@@ -1,0 +1,55 @@
+.container-awards {
+  margin-top: 7.5rem;
+  padding: 5.7188rem 0px;
+  background-color: rgb(247, 248, 250);
+}
+
+.awards {
+  box-sizing: content-box;
+  max-width: 62.5rem;
+  margin: 0px auto;
+  padding: 0px 2.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3.75rem;
+}
+
+.awards > h3 {
+  max-width: 11.5rem;
+  margin-bottom: 0px;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.625rem;
+}
+
+.awards > div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.awards > div > img {
+  mix-blend-mode: multiply;
+}
+
+@media (max-width: 426px) {
+  .container-awards {
+    padding: 2.5rem 0px;
+  }
+  .awards {
+    gap: 0px;
+    padding: 0 1rem;
+    flex-direction: column;
+  }
+  .awards > div {
+    justify-content: center;
+  }
+  .awards > h3 {
+    margin-bottom: 2.5rem;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    white-space: nowrap;
+  }
+}
