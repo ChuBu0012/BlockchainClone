@@ -568,13 +568,14 @@
             </p>
           </div>
         </div>
-        <div class="ex-content">
-          <a
-            class="btn-to-ex"
-            href="https://www.w3schools.com/cssref/pr_dim_min-width.php"
-            target="_blank"
-            >Click me to see example</a
-          >
+        <div
+          class="ex-content"
+          style="display: flex; justify-content: space-evenly"
+        >
+          <div class="box" style="width: 50px">w50px</div>
+          <div class="box" style="width: 50px; min-width: 100px">
+            w50px minW100px
+          </div>
         </div>
       </div>
       <!-- min-height -->
@@ -601,13 +602,14 @@
             </p>
           </div>
         </div>
-        <div class="ex-content">
-          <a
-            class="btn-to-ex"
-            href="https://www.w3schools.com/cssref/pr_dim_min-height.php"
-            target="_blank"
-            >Click me to see example</a
-          >
+        <div
+          class="ex-content"
+          style="display: flex; justify-content: space-evenly"
+        >
+          <div class="box" style="height: 50px">h50px</div>
+          <div class="box" style="height: 50px; min-height: 100px">
+            h50px minH100px
+          </div>
         </div>
       </div>
       <!-- max-width -->
@@ -635,13 +637,14 @@
             </p>
           </div>
         </div>
-        <div class="ex-content">
-          <a
-            class="btn-to-ex"
-            href="https://www.w3schools.com/cssref/pr_dim_max-width.php"
-            target="_blank"
-            >Click me to see example</a
-          >
+        <div
+          class="ex-content"
+          style="display: flex; justify-content: space-evenly"
+        >
+          <div class="box" style="width: 100px">w100px</div>
+          <div class="box" style="width: 100px; max-width: 50px">
+            w<br />100px maxW<br />50px
+          </div>
         </div>
       </div>
       <!-- max-height -->
@@ -670,13 +673,14 @@
             </p>
           </div>
         </div>
-        <div class="ex-content">
-          <a
-            class="btn-to-ex"
-            href="https://www.w3schools.com/cssref/pr_dim_max-height.php"
-            target="_blank"
-            >Click me to see example</a
-          >
+        <div
+          class="ex-content"
+          style="display: flex; justify-content: space-evenly"
+        >
+          <div class="box" style="height: 100px">w100px</div>
+          <div class="box" style="height: 100px; max-height: 50px">
+            h<br />100px maxH<br />50px
+          </div>
         </div>
       </div>
       <!-- list-style-type -->
@@ -974,7 +978,14 @@
             class="btn-to-ex"
             href="https://www.w3schools.com/cssref/css3_pr_pointer-events.php"
             target="_blank"
-            >Click me to see example</a
+            >Click me! to see example</a
+          >
+          <a
+            class="btn-to-ex"
+            href="https://www.w3schools.com/cssref/css3_pr_pointer-events.php"
+            target="_blank"
+            style="pointer-events: none"
+            >You can't click me!</a
           >
         </div>
       </div>
@@ -1005,13 +1016,12 @@
             </p>
           </div>
         </div>
-        <div class="ex-content">
-          <a
-            class="btn-to-ex"
-            href="https://www.w3schools.com/cssref/css3_pr_gap.php"
-            target="_blank"
-            >Click me to see example</a
-          >
+        <div
+          class="ex-content"
+          style="display: flex; justify-content: center; gap: 1rem"
+        >
+          <div class="box">gap 1 rem</div>
+          <div class="box">gap 1 rem</div>
         </div>
       </div>
 
@@ -1085,7 +1095,7 @@
       </div>
 
       <!-- object-fit -->
-      <div class="content">
+      <div class="content content-obj-fit">
         <div class="content-text">
           <h2>
             <a
@@ -1131,13 +1141,38 @@
             <p class="syntax"><b>Syntax : </b>object-fit: value;</p>
           </div>
         </div>
-        <div class="ex-content">
-          <a
-            class="btn-to-ex"
-            href="https://www.w3schools.com/css/css3_object-fit.asp"
-            target="_blank"
-            >Click me to see example</a
-          >
+        <div
+          class="ex-content"
+          style="display: flex; gap: 1rem; justify-content: center"
+        >
+          <img
+            src="./assetsBlockchain/paris.jpg"
+            width="150"
+            height="200"
+            alt=""
+          />
+          <div style="display: flex; flex-direction: column">
+            <div>
+              <p>Object-fit:Container</p>
+              <img
+                src="./assetsBlockchain/paris.jpg"
+                width="150"
+                height="200"
+                style="object-fit: contain"
+                alt=""
+              />
+            </div>
+            <div>
+              <p>Object-fit:Cover</p>
+              <img
+                src="./assetsBlockchain/paris.jpg"
+                width="150"
+                height="200"
+                style="object-fit: cover"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
       </div>
 
@@ -1169,7 +1204,6 @@
           <a
             class="btn-to-ex"
             href="https://www.w3schools.com/cssref/pr_text_white-space.php"
-            target="_blank"
             >Click me to see example</a
           >
         </div>
