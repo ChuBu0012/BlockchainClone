@@ -132,6 +132,14 @@
   margin-top: 1rem;
 }
 
+.ex-white-space{
+  overflow: hidden;
+}
+
+.ex-content:hover {
+  overflow: visible;
+}
+
 @media (max-width: 426px) {
   .css-ref-img > img {
     display: none;
