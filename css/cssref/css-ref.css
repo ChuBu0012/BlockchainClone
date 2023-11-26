@@ -147,7 +147,7 @@
   .content {
     grid-template-columns: 1fr;
     text-align: center;
-    max-height: 620px;
+    max-height: 100%;
     padding: 0 10px;
     box-shadow: none;
     border-radius: 0;
