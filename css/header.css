@@ -278,7 +278,7 @@ button.signup:hover {
   transition: all 0.3s ease 0s;
 }
 
-.buyCrypto > button {
+.buyCrypto > a {
   width: 4rem;
   height: 4rem;
   display: flex;
@@ -292,7 +292,7 @@ button.signup:hover {
   font-size: 1.25rem;
 }
 
-.buyCrypto > button > img {
+.buyCrypto > a > img {
   height: 2.5rem;
   border-radius: 50%;
 }
