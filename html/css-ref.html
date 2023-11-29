@@ -1317,7 +1317,7 @@
         <div
           class="ex-content"
           style="
-            gap: 0;
+            gap: 4px;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -1328,6 +1328,61 @@
           <div class="box" style="filter: invert(100%)">invert 100%</div>
           <div class="box" style="filter: drop-shadow(8px 8px 10px gray)">
             drop-shadow
+          </div>
+        </div>
+      </div>
+      <!-- mix-blend-mode -->
+      <div class="content" >
+        <div class="content-text">
+          <h2>
+            <a
+              href="https://www.w3schools.com/cssref/css3_pr_filter.php"
+              target="_blank"
+            >
+              mix-blend-mode
+            </a>
+
+            <img src="../assetsBlockchain/point-icon.svg" alt="point-icon" />
+          </h2>
+
+          <p>
+            ใช้ระบุว่าเนื้อหาขององค์ประกอบควรผสมผสานกับพื้นหลัง parent
+            โดยตรงอย่างไร
+          </p>
+
+          <div class="inform-css">
+            <p class="default-value"><b>Default value : </b> none</p>
+            <p class="syntax" >
+              <b>Syntax : </b>mix-blend-mode:
+              normal | multiply | screen | overlay | darken | lighten
+               | color-dodge | color-burn | difference | exclusion | hue | saturation | <br/>color | luminosity;
+            </p>
+          </div>
+        </div>
+        <div
+          class="ex-content"
+          style="
+            gap: 4px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+          "
+        >
+          <div class="box">
+            <img src="../assetsBlockchain/appstore.png" style="width: 100%;mix-blend-mode: normal;" alt="appstore">
+            <span style="font-size: 0.8rem;">mix-blend-mode: normal;</span>
+          </div>
+          <div class="box">
+            <img src="../assetsBlockchain/appstore.png" style="width: 100%;mix-blend-mode: multiply;" alt="appstore">
+            <span style="font-size: 0.8rem;">mix-blend-mode: multiply;</span>
+          </div>
+          <div class="box">
+            <img src="../assetsBlockchain/appstore.png" style="width: 100%;mix-blend-mode: difference;" alt="appstore">
+            <span style="font-size: 0.8rem;">mix-blend-mode: difference;</span>
+          </div>
+          <div class="box">
+            <img src="../assetsBlockchain/appstore.png" style="width: 100%;mix-blend-mode: lighten;" alt="appstore">
+            <span style="font-size: 0.8rem;">mix-blend-mode: lighten;</span>
           </div>
         </div>
       </div>
