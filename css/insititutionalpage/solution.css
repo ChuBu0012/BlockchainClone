@@ -1,3 +1,4 @@
+/* container solution */
 .container-solution {
   padding-top: 4.7rem;
 
@@ -15,7 +16,7 @@
   max-width: 62.5rem;
   margin: 0 auto;
 }
-
+/* solution content */
 .solution-content {
   display: flex;
   flex-direction: column;
@@ -48,7 +49,7 @@
   display: flex;
   justify-content: space-between;
 }
-
+/* solution sub-content */
 .solution-subcontent {
   flex: 1;
   border-right: 1px solid rgb(80, 89, 107);
@@ -67,7 +68,7 @@
   line-height: 1.5rem;
   max-width: 295px;
 }
-
+/* responsive mobile */
 @media (max-width: 426px) {
   .container-solution {
     background-size: 28rem, cover;

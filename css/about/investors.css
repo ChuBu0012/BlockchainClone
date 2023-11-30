@@ -1,3 +1,4 @@
+/* invertors-container */
 .investors {
   box-sizing: content-box;
   max-width: 62.5rem;
@@ -31,6 +32,7 @@
   grid-template-rows: 140px 140px;
 }
 
+/* grid-container inverstors */
 .grid-inverstors > div {
   background-color: #fff;
   display: flex;
@@ -52,6 +54,8 @@
 .grid-inverstors > div a:hover {
   opacity: 0.6;
 }
+
+/* responsive mobile  */
 
 @media (max-width: 426px) {
   .investors {

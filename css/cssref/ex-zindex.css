@@ -1,3 +1,4 @@
+/* example z-index */
 .ex-z-index,
 .ex-content {
   display: grid;
@@ -43,7 +44,7 @@
   top: -180px;
   left: 90px;
 }
-
+/* responsive mobile */
 @media (max-width: 426px) {
   .ex-z-index {
     margin-top: 3rem;

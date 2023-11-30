@@ -1,3 +1,4 @@
+/* container product-we */
 .container-products-we {
   background: rgb(247, 248, 250);
   padding: 6.25rem 0;
@@ -18,13 +19,14 @@
   line-height: 2.625rem;
 }
 
+/* container grid product-we */
 .products-we-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(auto, 25.125rem));
   gap: 3.75rem 2.5rem;
   justify-content: space-between;
 }
-
+/* dot color-blue */
 .dot-blue {
   display: block;
   min-width: 8px;
@@ -33,7 +35,7 @@
   border-radius: 50%;
   margin-top: 8px;
 }
-
+/* product-we items */
 .products-we-item > h5 {
   margin: 1.5rem 0;
   font-size: 1.25rem;
@@ -70,7 +72,7 @@
   color: rgb(80, 89, 107);
   margin-top: 60px;
 }
-
+/* responsive mobile */
 @media (max-width: 426px) {
   .container-products-we {
     padding: 2.5rem 0;

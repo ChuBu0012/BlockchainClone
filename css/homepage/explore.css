@@ -1,3 +1,4 @@
+/* container explore */
 .explore {
   display: flex;
   justify-content: space-between;
@@ -15,14 +16,14 @@
 
   border-radius: 1rem;
 }
-
+/* explore content */
 .explore-content {
   color: rgb(242, 139, 36);
   flex: 1;
 
   min-width: 640px;
 }
-
+/* explore btn */
 .explore-btn {
   background: rgb(255, 242, 229);
   color: rgb(242, 139, 36);
@@ -105,6 +106,8 @@
   background-color: rgb(217, 103, 22);
 }
 
+/* explore image */
+
 .explore-img {
   flex: 1;
   display: flex;
@@ -117,6 +120,8 @@
 .explore-img-mobile {
   display: none;
 }
+
+/* responsive mobile */
 
 @media (max-width: 426px) {
   .explore {

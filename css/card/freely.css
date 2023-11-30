@@ -1,3 +1,4 @@
+/* container freely */
 .container-freely {
   padding-block: 6.25rem;
   background: url("../../assetsBlockchain/card/card-waitlist-bg.png") no-repeat,
@@ -24,6 +25,8 @@
   margin-bottom: 20px;
 }
 
+/* Over-footer */
+
 .over-footer {
   display: flex;
   justify-content: space-between;
@@ -40,6 +43,8 @@
     font-size: 0.75rem;
     line-height: 1rem;
 }
+
+/* responsive mobile */
 
 @media (max-width:426px) {
     .container-freely{

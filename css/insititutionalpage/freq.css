@@ -1,3 +1,4 @@
+/* container freq */
 .container-freq {
   padding-top: 6.25rem;
   border-bottom: 1px solid rgb(223, 227, 235);
@@ -8,7 +9,6 @@
   margin: 0px auto;
   padding: 0px 2.5rem;
 }
-
 .freq > h2 {
   color: rgb(18, 29, 51);
   margin-bottom: 2.5rem;
@@ -35,6 +35,7 @@
   display: flex;
   justify-content: space-between;
 }
+/* freq dropdown */
 
 .freq-dropdown:hover {
   box-shadow: rgba(130, 139, 159, 0.2) 0rem 0.25rem 1.25rem 0rem;
@@ -47,7 +48,7 @@
   cursor: pointer;
   padding: 0px;
 }
-
+/* freq detail */
 .freq-detail {
   max-height: 0;
   opacity: 0;
@@ -67,7 +68,7 @@
 .freq-menu-active > button > svg {
   transform: rotate(90deg);
 }
-
+/* freq footer */
 .freq-footer {
   color: rgb(255, 255, 255);
   background-color: rgb(18, 29, 51);
@@ -93,7 +94,7 @@
 .freq-footer span {
   color: rgb(12, 108, 242);
 }
-
+/* responsive mobile */
 @media (max-width: 426px) {
   .container-freq {
     padding-top: 3.75rem;

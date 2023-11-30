@@ -1,3 +1,4 @@
+/* container card */
 .container-card {
   color: rgb(255, 255, 255);
   background: url("../../assetsBlockchain/card/card-fold-bg.png") right bottom /
@@ -41,6 +42,7 @@
   margin-bottom: 2rem;
 }
 
+/* card form */
 .card-content > form {
   display: flex;
   /* justify-content: center; */
@@ -94,6 +96,8 @@
   font-weight: 400;
   line-height: 1rem;
 }
+
+/* responsive mobile */
 
 @media (max-width: 426px) {
   .container-card {

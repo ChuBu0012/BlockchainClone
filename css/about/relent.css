@@ -1,3 +1,4 @@
+/* container relent */
 .container-relent {
   padding-top: 5rem;
 
@@ -39,6 +40,7 @@
   line-height: 1.875rem;
 }
 
+/* responsive mobile */
 @media (max-width: 426px) {
   .container-relent {
     background-size: 360px;

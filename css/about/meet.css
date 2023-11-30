@@ -1,3 +1,4 @@
+/* container meet */
 .container-meet {
   box-sizing: content-box;
   max-width: 62.5rem;
@@ -60,6 +61,8 @@
   line-height: 1.5rem;
 }
 
+/* grid-board-directory */
+
 .grid-board-dir {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -94,7 +97,7 @@
   line-height: 24px;
   margin: 4px 0px;
 }
-
+/* responsive mobile */
 @media (max-width: 426px) {
   .container-meet {
     padding: 0px 1rem;

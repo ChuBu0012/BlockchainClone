@@ -1,3 +1,4 @@
+/* container elegant */
 .container-elegant {
   background: rgb(247, 248, 250);
   padding: 6.5rem 0;
@@ -41,7 +42,7 @@
   font-weight: 400;
   line-height: 1.5rem;
 }
-
+/* responsive mobile */
 @media (max-width: 426px) {
   .container-elegant {
     padding: 2.5rem 0;

@@ -1,3 +1,4 @@
+/* container wallet */
 .wallet {
   display: flex;
   justify-content: space-between;
@@ -102,6 +103,8 @@
   background-color: rgb(83, 34, 229);
 }
 
+/* wallet img */
+
 .wallet-img {
   flex: 1;
   display: flex;
@@ -113,6 +116,7 @@
   display: none;
 }
 
+/* responsive mobile */
 @media (max-width: 426px) {
   .wallet {
     padding: 16px;

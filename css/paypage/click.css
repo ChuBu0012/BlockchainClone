@@ -1,3 +1,4 @@
+/* container 1 click */
 .container-1-click {
   background: linear-gradient(
     rgb(255, 255, 255) 0%,
@@ -5,7 +6,7 @@
   );
   padding: 7.5rem 0px 2.5rem;
 }
-
+/* click content */
 .click-content {
   color: rgb(80, 89, 107);
   background: #fff;
@@ -34,14 +35,14 @@
   line-height: 1.5rem;
   font-weight: 400;
 }
-
+/* click map */
 .click-map {
   height: 41.5rem;
   width: 100%;
   background: url("../../assetsBlockchain/paypage/map.svg") no-repeat center
     center / auto 100%;
 }
-
+/* responsive mobile */
 @media (max-width: 426px) {
   .container-1-click {
     padding-top: 3rem;

@@ -1,3 +1,4 @@
+/* container wantto */
 .container-wantto {
   padding: 80px 0;
   background: rgb(18, 29, 51)
@@ -13,7 +14,7 @@
   justify-content: space-between;
   align-items: center;
 }
-
+/* wantto content */
 .wantto-content {
   display: flex;
   flex-direction: column;
@@ -31,7 +32,7 @@
   font-weight: 500;
   line-height: 1.2;
 }
-
+/* responsive mobile */
 @media (max-width: 426px) {
   .container-wantto {
     padding: 40px 0;

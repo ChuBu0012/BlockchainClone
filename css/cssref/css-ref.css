@@ -1,3 +1,4 @@
+/* container css ref */
 .container-css-ref {
   padding-top: 5rem;
 
@@ -21,6 +22,7 @@
   padding: 0 2.5rem;
 }
 
+/* container content cssref */
 .container-content {
   padding: 5rem 0;
   flex-direction: column;
@@ -61,6 +63,7 @@
   top: 2rem;
 }
 
+/* content info element */
 .content {
   width: 100%;
   display: grid;
@@ -71,6 +74,7 @@
   padding: 2rem 1rem;
   box-shadow: rgba(0, 0, 0, 0.2) 8px 8px 20px 0px;
 }
+/* example area */
 .box {
   width: 100px;
   height: 100px;
@@ -99,9 +103,13 @@
   font-size: 1.25rem;
 }
 
+/* note */
+
 .note {
   margin-top: 1rem;
 }
+
+/* button link example */
 
 .btn-to-ex {
   background-color: #fbeee0;
@@ -128,17 +136,25 @@
   transform: translate(2px, 2px);
 }
 
+/* inform */
+
 .inform-css {
   margin-top: 1rem;
 }
+
+/* example white space */
 
 .ex-white-space{
   overflow: hidden;
 }
 
+/* ex-content */
+
 .ex-content:hover {
   overflow: visible;
 }
+
+/* responsive mobile */
 
 @media (max-width: 426px) {
   .css-ref-img > img {

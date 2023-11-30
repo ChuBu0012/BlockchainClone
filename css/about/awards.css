@@ -1,3 +1,4 @@
+/* container-awards */
 .container-awards {
   margin-top: 7.5rem;
   padding: 5.7188rem 0px;
@@ -33,6 +34,8 @@
 .awards > div > img {
   mix-blend-mode: multiply;
 }
+
+/* responsive mobile */
 
 @media (max-width: 426px) {
   .container-awards {

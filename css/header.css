@@ -338,6 +338,7 @@ button.signup:hover {
   border: 1px solid #fff;
 }
 
+/* dropdown triangle */
 .triangle {
   width: 0;
   height: 0;
@@ -350,6 +351,7 @@ button.signup:hover {
   left: 52.5%;
 }
 
+/* responsive mobile */
 @media (max-width: 426px) {
   .learnmore {
     flex-direction: column;

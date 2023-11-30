@@ -1,3 +1,4 @@
+/* container coming soon */
 .container-coming-soon {
   padding-top: 5rem;
 
@@ -19,6 +20,7 @@
   margin: 0 auto;
   padding: 0 2.5rem;
 }
+/* coming soon content */
 .coming-soon-content {
   padding: 5rem 0px;
 }
@@ -56,13 +58,13 @@
   color: rgb(18, 29, 51);
   background: rgb(255, 255, 255);
 }
-
+/* coming soon img */
 .coming-soon-img > img {
   max-width: 448px;
   position: relative;
   top: 2rem;
 }
-
+/* responsive mobile */
 @media (max-width: 426px) {
   .container-coming-soon {
     max-height: 930px;

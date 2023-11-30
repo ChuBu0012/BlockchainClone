@@ -1,3 +1,4 @@
+/* container introducing */
 .container-introducing {
   padding-top: 7.5rem;
   overflow: hidden;
@@ -28,7 +29,7 @@
   font-size: 1.25rem;
   line-height: 1.875rem;
 }
-
+/* introducing content */
 .introducing-content {
   display: flex;
   justify-content: space-between;
@@ -36,7 +37,7 @@
 
   gap: 2.5rem;
 }
-
+/* introducing img */
 .introducing-img {
   height: 100%;
 }
@@ -62,7 +63,7 @@
   font-size: 1rem;
   line-height: 1.5rem;
 }
-
+/* responsive mobile */
 @media (max-width: 426px) {
   .container-introducing {
     padding: 2.5rem 0;

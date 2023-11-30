@@ -1,3 +1,4 @@
+/* container youshould */
 .container-youshould {
   background: url("../../assetsBlockchain/card/card-features-bg.png") right top
       no-repeat,
@@ -17,7 +18,7 @@
   margin: 0px auto;
   padding: 0px 2.5rem;
 }
-
+/* icon bg white*/
 .icon {
   background-color: rgb(236, 245, 254);
   padding: 0.75rem;
@@ -25,6 +26,7 @@
   border-radius: 1.25rem;
 }
 
+/* content */
 .youshould-content {
   max-width: 30.4375rem;
 }
@@ -45,7 +47,7 @@
   flex-direction: column;
   gap: 2.5rem;
 }
-
+/* youshould item */
 .youshould-item h5 {
   font-size: 1.25rem;
   font-weight: 600;
@@ -63,19 +65,19 @@
   line-height: 1.5rem;
   color: rgb(80, 89, 107);
 }
-
-@media (max-width:426px) {
-    .container-youshould{
-        background-position: right bottom;
-        padding: 2.5rem 0;
-    }
-    .youshould{
-        flex-direction: column;
-        padding: 0 10px;
-    }
-    .youshould-content h2{
-        margin: 1.5rem 0;
-        font-size: 1.25rem;
-        line-height: 1.75rem;
-    }
+/* responsive mobile */
+@media (max-width: 426px) {
+  .container-youshould {
+    background-position: right bottom;
+    padding: 2.5rem 0;
+  }
+  .youshould {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .youshould-content h2 {
+    margin: 1.5rem 0;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }

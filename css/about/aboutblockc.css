@@ -1,3 +1,4 @@
+/* container about */
 .container-aboutblockc {
   box-sizing: content-box;
   max-width: 62.5rem;
@@ -13,6 +14,7 @@
   padding: 7.5rem 0px;
 }
 
+/* icon bg blue */
 .icon {
   width: fit-content;
   background-color: rgb(12, 108, 242);
@@ -36,7 +38,7 @@
   font-size: 1.25rem;
   line-height: 1.875rem;
 }
-
+/* grid-container person */
 .grid-aboutblock {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -57,44 +59,50 @@
   font-size: 48px;
   line-height: 58px;
 }
+/* box blue */
 .p-1 {
   background-color: rgb(236, 245, 254);
   background-image: url("../../assetsBlockchain/aboutpage/blue-bg.svg");
   color: rgb(12, 108, 242);
 }
-
+/* box green */
 .p-2 {
   background-color: rgb(230, 250, 236);
   background-image: url("../../assetsBlockchain/aboutpage/green-bg.svg");
   color: rgb(0, 102, 51);
 }
+/* box purple */
 .p-3 {
   background-color: rgb(239, 236, 254);
   background-image: url("../../assetsBlockchain/aboutpage/purple-bg.svg");
   color: rgb(83, 34, 229);
 }
+/* box orange */
 .p-4 {
   background-color: rgb(255, 242, 229);
   background-image: url("../../assetsBlockchain/aboutpage/orange-bg.svg");
   color: rgb(179, 68, 0);
 }
+/* box red */
 .p-5 {
   background-color: rgb(252, 237, 235);
   background-image: url("../../assetsBlockchain/aboutpage/red-bg.svg");
   color: rgb(165, 13, 13);
 }
+/* box grey */
 .p-6 {
   background-color: rgb(240, 242, 247);
   background-image: url("../../assetsBlockchain/aboutpage/gray-bg.svg");
   color: rgb(53, 63, 82);
 }
-
+/* p ที่ต่อจาก grid-container */
 .grid-aboutblock + p {
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.5rem;
 }
 
+/* responsive mobile */
 @media (max-width: 426px) {
   .container-aboutblockc {
     background-size: contain;
